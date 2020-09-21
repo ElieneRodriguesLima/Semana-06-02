@@ -1,0 +1,21 @@
+op = 0
+while True:
+    print('''[1]Saudação
+    [2]Bronca
+    [3]Felicitação
+    [0]Fim ''')
+    op = int(input('Escolha uma opção a cima:'))
+    if op == 1:
+        print('Olá. Como vai? ')
+    elif op == 2:
+       print('Vamos estudar mais. ')
+    elif op == 3:
+        print('Meus Parabéns! ')
+    elif op == 0:
+        print('Fim de serviço')
+        break
+    else:
+        print('Opção inválida.')
+             
+    
+      
